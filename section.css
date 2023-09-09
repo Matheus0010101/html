@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.titulo_um{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.titulo_dois{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 50px;
+}
+.titulo_tres{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 50px;
+}
+.caixa{
+    border: 1px solid black;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.caixa-p{
+    border:  solid 2px black;
+    width: 75vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5  vh;
+    background-color: #d3d3d3;
+    text-decoration: none;
+    color:black;
+
+}
+.sessao_primeiro{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.img_um{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    width: 26vw;
+}
+footer{
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    margin-top: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
